@@ -6,7 +6,7 @@ import joblib
 
 app = Flask(__name__)
 
-loaded_model =joblib.load('dib.pkl'')
+loaded_model =joblib.load('dib.pkl')
 
 @app.route('/homepage')  # decorator
 def homepage():
